@@ -10,7 +10,7 @@ target 'mas' do
   # use_frameworks!
   use_modular_headers!
 
-  pod 'Commandant', git: "https://github.com/phatblat/Commandant.git", branch: "cocoapods"
+  pod 'Commandant', '~> 0.14'
   pod 'Result'
 
   target 'mas-tests' do
