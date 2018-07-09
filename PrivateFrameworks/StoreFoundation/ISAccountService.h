@@ -9,6 +9,7 @@
 @class ISAuthenticationResponse, ISStoreAccount, NSDictionary, NSNumber, NSString, NSURL, NSURLRequest, NSURLResponse;
 
 @class ISAuthenticationContext;
+@protocol ISServiceRemoteObject;
 @class NSURLRequest;
 
 NS_ASSUME_NONNULL_BEGIN
