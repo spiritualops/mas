@@ -3,6 +3,8 @@
 # mas-cli
 #
 
+source 'https://github.com/CocoaPods/Specs.git'
+
 platform :osx, '10.9'
 
 target 'mas' do
@@ -10,7 +12,7 @@ target 'mas' do
   # use_frameworks!
   use_modular_headers!
 
-  pod 'Commandant', '~> 0.14'
+  pod 'Commandant', '~> 0.15.0'
   pod 'Result'
 
   target 'mas-tests' do
