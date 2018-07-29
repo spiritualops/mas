@@ -24,10 +24,12 @@ main() {
 
   build
 
+  # TEMP: Archive is invoked on every build to limit the number of files that need to be
+  # uploaded/downloaded from S3 due to how travisci stages work.
   # If this is a tagged build we are going to release
-  if [[ ! -z $TRAVIS_TAG ]]; then
-    archive
-  fi
+#   if [[ ! -z $TRAVIS_TAG ]]; then
+  archive
+#   fi
 }
 
 build() {
