@@ -1,4 +1,11 @@
 #!/bin/bash -e
+#
+# script/package
+# mas
+#
+# Adds symbol files to xcarchive, compresses xcarchive and mas executable,
+# and finally prints the sha256 of the compressed binary.
+#
 
 BUILD_DIR=build
 SYM_DIR=sym/Release
