@@ -11,35 +11,35 @@
 
 @import Foundation;
 
-#import <StoreFoundation/ISStoreAccount.h>
+//#import <StoreFoundation/ISStoreAccount.h>
 
-#import <CommerceKit/CKAccountStore.h>
-#import <CommerceKit/CKDownloadQueue.h>
-#import <CommerceKit/CKPurchaseController.h>
-#import <CommerceKit/CKSoftwareMap.h>
-#import <CommerceKit/CKUpdateController.h>
+//#import <CommerceKit/CKAccountStore.h>
+//#import <CommerceKit/CKDownloadQueue.h>
+//#import <CommerceKit/CKPurchaseController.h>
+//#import <CommerceKit/CKSoftwareMap.h>
+//#import <CommerceKit/CKUpdateController.h>
 
-#import <StoreFoundation/CKUpdate.h>
-#import <StoreFoundation/SSDownload.h>
-#import <StoreFoundation/SSDownloadMetadata.h>
-#import <StoreFoundation/SSDownloadPhase.h>
-#import <StoreFoundation/SSDownloadStatus.h>
-#import <StoreFoundation/SSPurchaseResponse.h>
-#import <StoreFoundation/ISStoreClient.h>
-#import <StoreFoundation/ISAuthenticationContext.h>
-#import <StoreFoundation/ISAuthenticationResponse.h>
-#import <StoreFoundation/ISServiceRemoteObject-Protocol.h>
-#import <StoreFoundation/ISAccountService-Protocol.h>
-#import "ISAccountService-Protocol.h"
-#import <StoreFoundation/ISServiceProxy.h>
+//#import <StoreFoundation/CKUpdate.h>
+//#import <StoreFoundation/SSDownload.h>
+//#import <StoreFoundation/SSDownloadMetadata.h>
+//#import <StoreFoundation/SSDownloadPhase.h>
+//#import <StoreFoundation/SSDownloadStatus.h>
+//#import <StoreFoundation/SSPurchaseResponse.h>
+//#import <StoreFoundation/ISStoreClient.h>
+//#import <StoreFoundation/ISAuthenticationContext.h>
+//#import <StoreFoundation/ISAuthenticationResponse.h>
+//#import <StoreFoundation/ISServiceRemoteObject-Protocol.h>
+//#import <StoreFoundation/ISAccountService-Protocol.h>
+//#import "ISAccountService-Protocol.h"
+//#import <StoreFoundation/ISServiceProxy.h>
 
-@protocol CKDownloadQueueObserver
-
-- (void)downloadQueue:(CKDownloadQueue *)downloadQueue changedWithAddition:(SSDownload *)download;
-- (void)downloadQueue:(CKDownloadQueue *)downloadQueue changedWithRemoval:(SSDownload *)download;
-- (void)downloadQueue:(CKDownloadQueue *)downloadQueue statusChangedForDownload:(SSDownload *)download;
-
-@end
+//@protocol CKDownloadQueueObserver
+//
+//- (void)downloadQueue:(CKDownloadQueue *)downloadQueue changedWithAddition:(SSDownload *)download;
+//- (void)downloadQueue:(CKDownloadQueue *)downloadQueue changedWithRemoval:(SSDownload *)download;
+//- (void)downloadQueue:(CKDownloadQueue *)downloadQueue statusChangedForDownload:(SSDownload *)download;
+//
+//@end
 
 NSString* CKDownloadDirectory(NSString *target);
 

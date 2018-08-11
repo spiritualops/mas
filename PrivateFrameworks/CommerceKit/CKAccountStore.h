@@ -5,10 +5,9 @@
 //
 
 // #import "NSObject.h"
-#import "CKServiceInterface.h"
 
-#import "ISStoreURLOperationDelegate-Protocol.h"
-#import <CommerceKit/CKServiceInterface.h>
+#import "CKServiceInterface.h"
+#import "ISStoreURLOperationDelegate.h"
 
 @class CKDemoAccount, CKStoreAccount, CKStoreClient, ISStoreAccount, NSArray;
 
@@ -46,7 +45,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property(readonly) NSArray *accounts;
 - (id)accountWithAppleID:(id)arg1;
 - (id)accountForDSID:(id)arg1;
-@property(readonly) BOOL primaryAccountIsPresentAndSignedIn;
 @property(readonly) ISStoreAccount *primaryAccount;
 - (void)removePrimaryAccountObserver:(id)arg1;
 
